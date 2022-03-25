@@ -3,8 +3,8 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
 import Header from "./components/Header";
-import Login from "./Login";
-import { useStateValue } from "./StateProvider";
+import Login from "./components/Login";
+import { useStateValue } from "./context/StateProvider";
 function App() {
   return (
     <Router>
