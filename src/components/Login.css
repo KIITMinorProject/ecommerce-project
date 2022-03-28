@@ -1,5 +1,5 @@
 .login {
-    background-color: white;
+    background-color: pink;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -23,6 +23,8 @@
     border-radius: 5px;
     border: 1px solid lightgray;
     padding: 20px;
+    background-color: wheat;
+    margin-top: 50px;
 }
 
 .login__container > h1 {
@@ -46,7 +48,7 @@
     font-size: 12px;
 }
 
-.login__signInButton {
+.login_signInButton {
     background: #f0c14b;
     border-radius: 2px;
     width: 100%;

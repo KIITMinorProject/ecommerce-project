@@ -6,8 +6,9 @@ import Header from "./components/Header";
 import Login from "./components/Login";
 import { useStateValue } from "./context/StateProvider";
 import {auth} from "./components/firebase";
+
 function App() {
-const [{},dispatch]= useStateValue();
+const [{ user },dispatch]= useStateValue();
 
   useEffect(() => {
     auth.onAuthStateChanged((authUser) => {

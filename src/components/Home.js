@@ -1,8 +1,13 @@
-import React from "react";
+import React,{ useState } from "react";
 import "./Home.css";
+import Checkout from "./Checkout"
 import Product from "./Product";
+import { Drawer } from "@material-ui/core";
+import { sizing } from "@material-ui/core";
 
-function Home() {
+const Home = () => {
+
+  const [drawer, setDrawer] = useState(false);
   return (
     <div className="home">
       <div className="home__container">
@@ -65,6 +70,6 @@ function Home() {
       </div>
     </div>
   );
-}
+};
 
 export default Home;

@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import "./Checkout.css";
 import Subtotal from "./Subtotal";
-import { useStateValue } from "./StateProvider";
+import { useStateValue } from "../context/StateProvider";
 import CheckoutProduct from "./CheckoutProduct";
 import { Link, useHistory } from "react-router-dom";
 
@@ -16,7 +16,7 @@ function Checkout() {
       <Link to="/">
         <div className="checkout__center">
           <img
-            src="https://miro.medium.com/max/396/0*bVnfVVG7Y7qXQcO1"
+            src="https://miro.medium.com/max/396/0*bVnfVVG7Y7qXQcO1" alt=""
             style={{ height: 70, marginTop: 20 }}
             onClick={() =>
               dispatch({
