@@ -1,0 +1,13 @@
+.Slide__view{
+   
+        font-family: sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        margin-top: -60px;
+        margin-bottom: -60px;
+}
+
+

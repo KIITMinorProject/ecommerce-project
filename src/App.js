@@ -3,9 +3,13 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
 import Header from "./components/Header";
+import Checkout from "./components/Checkout";
 import Login from "./components/Login";
 import { useStateValue } from "./context/StateProvider";
 import {auth} from "./components/firebase";
+import Payment from "./components/Payment";
+import {ToastContainer} from "react-toastify";
+import Orders from "./components/Orders";
 
 function App() {
 const [{ user },dispatch]= useStateValue();
@@ -37,17 +41,17 @@ const [{ user },dispatch]= useStateValue();
           </Route>
           <Route path="/orders">
             <Header />
-            {/* <Orders /> */}
+            <Orders />
           </Route>
           <Route path="/checkout">
             <Header />
-            {/* <Checkout /> */}
+            <Checkout />
           </Route>
           <Route path="/payment">
             <Header />
-            {/* <Elements stripe={promise}>
+            {/*<Elements stripe={promise}>
               <Payment />
-            </Elements> */}
+  </Elements> */}
           </Route>
           <Route path="/">
             <Header />
@@ -55,7 +59,7 @@ const [{ user },dispatch]= useStateValue();
           </Route>
         </Switch>
       </div>
-      {/* <ToastContainer style={{ marginTop: "45px" }} /> */}
+      <ToastContainer style={{ marginTop: "45px" }} /> 
     </Router>
   );
 }

@@ -20,10 +20,10 @@ function Header() {
             <img className="header__logo" src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="logo"/>
           </Link>
   
-        <div className="header__search">
+        {/*<div className="header__search">
           <input className="header__searchInput" type="text" />
           <SearchIcon className="header__searchIcon" />
-        </div>
+    </div>*/}
   
         <div className="header__nav">
         <Link to={!user && '/login'}>
@@ -40,10 +40,10 @@ function Header() {
           </div>
         </Link>
 
-            <div className="header__option">
+            {/*<div className="header__option">
               <span className="header__optionLineOne">Hello Guest</span>
               <span className="header__optionLineTwo">Sign In</span>
-            </div>
+  </div>*/}
           
   
           
