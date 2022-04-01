@@ -21,56 +21,74 @@ const Home = () => {
         </div>
         <div className="home__row">
           <Product
-            id="12321341"
-            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
-            price={11.96}
-            rating={5}
-            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
-          />
-          <Product
-            id="49538094"
-            title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
-            price={239.0}
-            rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
-          />
-        </div>
-
-        <div className="home__row">
-          <Product
             id="4903850"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
+            title="Clap When You Land by Elizabeth Acevedo"
             price={199.99}
             rating={3}
-            image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+            image="https://img.buzzfeed.com/buzzfeed-static/static/2020-12/21/0/asset/f69da90b1e93/sub-buzz-5094-1608511484-18.jpg"
           />
           <Product
             id="23445930"
-            title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
+            title="Grown by Tiffany D. Jackson"
             price={98.99}
             rating={5}
-            image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
+            image="https://img.buzzfeed.com/buzzfeed-static/static/2020-12/21/1/asset/20f9b6998076/sub-buzz-7600-1608513071-1.jpg"
           />
           <Product
             id="3254354345"
-            title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
+            title="Want by Lynn Steger Strong"
             price={598.99}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
+            image="https://img.buzzfeed.com/buzzfeed-static/static/2020-12/22/13/asset/0d7df273f391/sub-buzz-7617-1608642227-6.jpg"
           />
         </div>
-
         <div className="home__row">
           <Product
-            id="90829332"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
-            price={1094.98}
+            id="4903850"
+            title="I Killed Zoe Spanos by Kit Frick"
+            price={199.99}
+            rating={3}
+            image="https://img.buzzfeed.com/buzzfeed-static/static/2020-12/21/1/asset/8fa865d5bddb/sub-buzz-7667-1608513640-3.jpg"
+          />
+          <Product
+            id="23445930"
+            title="You Had Me at Hola by Alexis Daria"
+            price={98.99}
+            rating={5}
+            image="https://img.buzzfeed.com/buzzfeed-static/static/2020-12/21/1/asset/0d7df273f391/sub-buzz-5152-1608513987-12.jpg"
+          />
+          <Product
+            id="3254354345"
+            title="Woven in Moonlight by Isabel Ibañez"
+            price={598.99}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+            image="https://img.buzzfeed.com/buzzfeed-static/static/2020-12/24/17/asset/0d7df273f391/sub-buzz-11109-1608830847-14.jpg"
+          />
+        </div>        <div className="home__row">
+          <Product
+            id="4903850"
+            title="Lobizona by Romina Garber"
+            price={199.99}
+            rating={3}
+            image="https://img.buzzfeed.com/buzzfeed-static/static/2020-12/21/0/asset/6c2b5f5c75da/sub-buzz-5105-1608511761-14.jpg"
+          />
+          <Product
+            id="23445930"
+            title="Mexican Gothic by Silvia Moreno-Garcia"
+            price={98.99}
+            rating={5}
+            image="https://img.buzzfeed.com/buzzfeed-static/static/2020-12/21/0/asset/92a0d962fe43/sub-buzz-5142-1608512275-19.jpg"
+          />
+          <Product
+            id="3254354345"
+            title="Felix Ever After by Kacen Callender"
+            price={598.99}
+            rating={4}
+            image="https://img.buzzfeed.com/buzzfeed-static/static/2020-12/21/1/asset/f69da90b1e93/sub-buzz-5139-1608512867-3.jpg"
           />
         </div>
+        </div>
       </div>
-    </div>
   );
 };
 

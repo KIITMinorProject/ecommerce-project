@@ -7,7 +7,7 @@
   }
   .home__container{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(78,124,167,1) 23%, rgba(118,188,236,1) 35%, rgba(203,223,235,1) 40%, rgba(0,212,255,1) 100%);
-  }
+    width: 100%;  }
 .home__image {
     width: 100%;
     z-index: -1;
