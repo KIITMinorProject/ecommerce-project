@@ -17,9 +17,9 @@ const SlideView = () => {
       <div className="Slide__view">
         <Carousel breakPoints={breakPoints}>
           <Item><img src="" alt="first"/></Item>
-          <Item>Two</Item>
-          <Item>Three</Item>
-          <Item>Four</Item>
+          <Item><img src="" alt="second"/></Item>
+          <Item><img src="" alt="third"/></Item>
+          <Item><img src="" alt="fourth"/></Item>
           
         </Carousel>
       </div>

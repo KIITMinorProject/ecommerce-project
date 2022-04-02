@@ -17,7 +17,7 @@ function Header() {
     return (
       <div className="header">
           <Link to="/">
-            <img className="header__logo" src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="logo"/>
+            <img className="header__logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9TmKlhZntCvsBkFcXdueBUOQ1ZgYIJkcYD0grh_2hXjRPnCtXSoeswZSsE5FJxlVtmyfQWqkDoK8tqkhU4FguIrKSO0_WJem0xYV_XsxW8_LoYqloiRDdxAFA3JZs_IVQ4PjuivZSngE4bLs-w9y9rmfs5q3vV28i-KcDHpLwXJ3fT5YcZ5KKgeZn/s1620/logo.png" alt="logo"/>
           </Link>
   
         {/*<div className="header__search">

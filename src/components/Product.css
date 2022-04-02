@@ -17,18 +17,19 @@
   }
   
   .product > img {
-    max-height: 200px;
+    max-height: 250px;
     width: 100%;
     object-fit: contain;
     margin-bottom: 15px;
   }
   
   .product > button {
-    background: #f0c14b;
-    border: 1px solid;
-    margin-top: 10px;
-    border-color: #a88734 #9c7e31 #846a29;
-    color: #111;
+    background: #013328 ;
+    background-size: 100px ;
+    border: 2px solid;
+    margin-top: 30px;
+    border-color: #100c0d ;
+    color:#cc8b65 ;
   }
 
   .product__price {
