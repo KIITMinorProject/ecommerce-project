@@ -16,10 +16,10 @@ const SlideView = () => {
       <h1 style={{ textAlign: "center" }}></h1>
       <div className="Slide__view">
         <Carousel breakPoints={breakPoints}>
-          <Item><img src="" alt="first"/></Item>
-          <Item><img src="" alt="second"/></Item>
-          <Item><img src="" alt="third"/></Item>
-          <Item><img src="" alt="fourth"/></Item>
+          <Item><img src="https://booklistqueen.com/wp-content/uploads/new-york-times-fiction-best-sellers-feature.jpg" alt="first"/></Item>
+          <Item><img src="https://www.booklistqueen.com/wp-content/uploads/new-york-times-nonfiction-best-sellers-feature.jpg" alt="second"/></Item>
+          <Item><img src="https://www.vowelor.com/wp-content/uploads/2019/07/Best-True-Crime-Books-696x380.png" alt="third"/></Item>
+          <Item><img src="https://www.frontlist.in/storage/uploads/2021/05/Capture-43.png" alt="fourth"/></Item>
           
         </Carousel>
       </div>
