@@ -31,8 +31,13 @@
 .product > img:hover{
   transform: scale(1.5);
 }
+.space {
+  width: 10px;
+  height: auto;
+  display: inline-block;
+}
   
-  .product > button {
+  .product > button,.btn1,.btn2 {
     background: #013328 ;
     background-size: 100px ;
     border: 1px solid;
@@ -42,7 +47,7 @@
     padding: 10px;
   }
 
-  .product >button:hover{
+  .product >button:hover,.btn1:hover,.btn2:hover{
     background-color: #cc8b65;
     color: #013328;
     transition: 0.4s;
