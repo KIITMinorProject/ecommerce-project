@@ -1,5 +1,6 @@
 .login {
-    background-color: pink;
+  background-image: linear-gradient(to right,#E3DCD2, #fcb451);
+    /* background-image: #E3DCD2; */
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -23,7 +24,7 @@
     border-radius: 5px;
     border: 1px solid lightgray;
     padding: 20px;
-    background-color: wheat;
+    background-color: whitesmoke;
     margin-top: 50px;
 }
 

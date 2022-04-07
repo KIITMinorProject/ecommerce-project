@@ -1,4 +1,4 @@
-import React,{ useState } from "react";
+import React, { useState } from "react";
 import "./Home.css";
 import Checkout from "./Checkout"
 import Product from "./Product";
@@ -15,33 +15,36 @@ const Home = () => {
           className="home__image"
           src="https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/09/Book-covers.jpg"
           alt=""
-  />}
+        />}
         <div className="home__slider">
-              <SlideView />
+          <SlideView />
         </div>
-        <div className="home__row">
-          <Product
-            id="4903850"
-            title="Clap When You Land by Elizabeth Acevedo"
-            price={199.99}
-            rating={3}
-            image="https://img.buzzfeed.com/buzzfeed-static/static/2020-12/21/0/asset/f69da90b1e93/sub-buzz-5094-1608511484-18.jpg"
-          />
-          <Product
-            id="23445930"
-            title="Grown by Tiffany D. Jackson"
-            price={98.99}
-            rating={5}
-            image="https://img.buzzfeed.com/buzzfeed-static/static/2020-12/21/1/asset/20f9b6998076/sub-buzz-7600-1608513071-1.jpg"
-          />
-          <Product
-            id="3254354345"
-            title="Want by Lynn Steger Strong"
-            price={598.99}
-            rating={4}
-            image="https://img.buzzfeed.com/buzzfeed-static/static/2020-12/22/13/asset/0d7df273f391/sub-buzz-7617-1608642227-6.jpg"
-          />
+        <div id="items">
+          <div className="home__row">
+            <Product
+              id="4903850"
+              title="Clap When You Land by Elizabeth Acevedo"
+              price={199.99}
+              rating={3}
+              image="https://img.buzzfeed.com/buzzfeed-static/static/2020-12/21/0/asset/f69da90b1e93/sub-buzz-5094-1608511484-18.jpg"
+            />
+            <Product
+              id="23445930"
+              title="Grown by Tiffany D. Jackson"
+              price={98.99}
+              rating={5}
+              image="https://img.buzzfeed.com/buzzfeed-static/static/2020-12/21/1/asset/20f9b6998076/sub-buzz-7600-1608513071-1.jpg"
+            />
+            <Product
+              id="3254354345"
+              title="Want by Lynn Steger Strong"
+              price={598.99}
+              rating={4}
+              image="https://img.buzzfeed.com/buzzfeed-static/static/2020-12/22/13/asset/0d7df273f391/sub-buzz-7617-1608642227-6.jpg"
+            />
+          </div>
         </div>
+
         <div className="home__row">
           <Product
             id="4903850"
@@ -87,8 +90,8 @@ const Home = () => {
             image="https://img.buzzfeed.com/buzzfeed-static/static/2020-12/21/1/asset/f69da90b1e93/sub-buzz-5139-1608512867-3.jpg"
           />
         </div>
-        </div>
       </div>
+    </div>
   );
 };
 
