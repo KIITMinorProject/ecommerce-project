@@ -43,7 +43,7 @@ const Home = () => {
               image="https://img.buzzfeed.com/buzzfeed-static/static/2020-12/22/13/asset/0d7df273f391/sub-buzz-7617-1608642227-6.jpg"
             />
           </div>
-        </div>
+        
 
         <div className="home__row">
           <Product
@@ -67,7 +67,8 @@ const Home = () => {
             rating={4}
             image="https://img.buzzfeed.com/buzzfeed-static/static/2020-12/24/17/asset/0d7df273f391/sub-buzz-11109-1608830847-14.jpg"
           />
-        </div>        <div className="home__row">
+        </div>        
+        <div className="home__row">
           <Product
             id="4903850"
             title="Lobizona by Romina Garber"
@@ -89,6 +90,7 @@ const Home = () => {
             rating={4}
             image="https://img.buzzfeed.com/buzzfeed-static/static/2020-12/21/1/asset/f69da90b1e93/sub-buzz-5139-1608512867-3.jpg"
           />
+        </div>
         </div>
       </div>
     </div>

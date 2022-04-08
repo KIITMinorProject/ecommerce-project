@@ -36,7 +36,7 @@ function Header() {
 
         <Link
           activeClass="active"
-          to="itmes"
+          to=".items"
           spy={true}
           smooth={true}
           offset={-70}

@@ -10,6 +10,10 @@ import {auth} from "./components/firebase";
 import Payment from "./components/Payment";
 import {ToastContainer} from "react-toastify";
 import Orders from "./components/Orders";
+import { loadStripe } from "@stripe/stripe-js";
+import {Elements} from "@stripe/react-stripe-js";
+
+const promise = loadStripe("pk_test_51KmEdRSHk7q3vRGfIgXcEJcd5PILej9iNzzyl3u9WHdiyYl5ZGiKl0dGJfzakyoP3X9dfQNJOCipdPc74mSnzJIp007O6phQBG");
 
 function App() {
 const [{ user },dispatch]= useStateValue();
@@ -49,9 +53,9 @@ const [{ user },dispatch]= useStateValue();
           </Route>
           <Route path="/payment">
             <Header />
-            {/*<Elements stripe={promise}>
+            <Elements stripe={promise}>
               <Payment />
-  </Elements> */}
+           </Elements>
           </Route>
           <Route path="/">
             <Header />
