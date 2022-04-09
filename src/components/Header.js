@@ -22,7 +22,7 @@ function Header() {
       </Link>
 
       <div className="header__search">
-        <input className="header__searchInput" type="text" placeholder="Search Words&Pages"/>
+        <input className="header__searchInput" type="text" placeholder="Search Words&Pages" />
         <SearchIcon className="header__searchIcon" />
       </div>
 
@@ -34,17 +34,10 @@ function Header() {
           </div>
         </Link>
 
-        <Link
-          activeClass="active"
-          to=".items"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
+        <Link to="/bookshelf">
           <div className="header__option">
-            <span className="header__optionLineOne">View</span>
-            <span className="header__optionLineTwo">Items</span>
+            <span className="header__optionLineOne">Book</span>
+            <span className="header__optionLineTwo">Shelf</span>
           </div>
         </Link>
 

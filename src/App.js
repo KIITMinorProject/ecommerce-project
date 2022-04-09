@@ -12,6 +12,7 @@ import {ToastContainer} from "react-toastify";
 import Orders from "./components/Orders";
 import { loadStripe } from "@stripe/stripe-js";
 import {Elements} from "@stripe/react-stripe-js";
+import Bookshelf from "./components/Bookshelf";
 
 const promise = loadStripe("pk_test_51KmEdRSHk7q3vRGfIgXcEJcd5PILej9iNzzyl3u9WHdiyYl5ZGiKl0dGJfzakyoP3X9dfQNJOCipdPc74mSnzJIp007O6phQBG");
 
@@ -45,7 +46,7 @@ const [{ user },dispatch]= useStateValue();
           </Route>
           <Route path="/orders">
             <Header />
-            <Orders />
+            <Bookshelf />
           </Route>
           <Route path="/checkout">
             <Header />
