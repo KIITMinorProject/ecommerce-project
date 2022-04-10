@@ -41,11 +41,16 @@
     background: #013328 ;
     background-size: 100px ;
     border: 1px solid;
+    border-radius: 4px;
     margin-top: 30px;
     border-color: #100c0d ;
     color:#cc8b65 ;
     padding: 10px;
-  }
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
   
   .product >button:hover,.btn1:hover,.btn2:hover{
     background-color: #cc8b65;
