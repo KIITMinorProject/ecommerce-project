@@ -34,17 +34,10 @@ function Header() {
           </div>
         </Link>
 
-        <Link
-          activeClass="active"
-          to=".items"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
+        <Link  to="/bookshelf">
           <div className="header__option">
-            <span className="header__optionLineOne">View</span>
-            <span className="header__optionLineTwo">Items</span>
+            <span className="header__optionLineOne">Book</span>
+            <span className="header__optionLineTwo">Shelf</span>
           </div>
         </Link>
 

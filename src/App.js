@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Header from "./components/Header";
 import Checkout from "./components/Checkout";
 import Login from "./components/Login";
+import Bookshelf from "./components/Bookshelf";
 import { useStateValue } from "./context/StateProvider";
 import {auth} from "./components/firebase";
 import Payment from "./components/Payment";
@@ -43,13 +44,13 @@ const [{ user },dispatch]= useStateValue();
           <Route path="/login">
             <Login />
           </Route>
-          <Route path="/orders">
+          <Route path="/bookshelf">
             <Header />
-            <Orders />
+            <Bookshelf />
           </Route>
           <Route path="/checkout">
             <Header />
-            <Checkout />
+          <Checkout />
           </Route>
           <Route path="/payment">
             <Header />
